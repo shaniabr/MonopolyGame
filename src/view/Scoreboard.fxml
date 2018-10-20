@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="616.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ScoreboardView">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="909.0">
+         <image>
+            <Image url="@images/scoreBoard.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="scoreTable" layoutX="84.0" layoutY="238.0" prefHeight="213.0" prefWidth="734.0" style="-fx-background-color: #cfe0e8; -fx-border-color: black; -fx-border-width: 3; -fx-border-style: solid; -fx-base: #cfe0e8;">
+        <columns>
+          <TableColumn fx:id="character" editable="false" prefWidth="204.0" text="Character" />
+            <TableColumn fx:id="nickName" editable="false" prefWidth="279.0" text="Nickname" />
+            <TableColumn fx:id="score" editable="false" prefWidth="247.0" sortType="DESCENDING" text="Score" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="back" blendMode="SCREEN" cacheShape="false" focusTraversable="false" layoutX="759.0" layoutY="573.0" onAction="#back" prefHeight="19.0" prefWidth="142.0" style="-fx-cursor: hand;" text=" " textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="26.0" />
+         </font>
+         <effect>
+            <Reflection />
+         </effect>
+      </JFXButton>
+      <Label layoutX="238.0" layoutY="178.0" prefHeight="25.0" prefWidth="68.0" text="Date:">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+      <DatePicker fx:id="gameDate" layoutX="298.0" layoutY="179.0" onAction="#dateChanged" prefHeight="23.0" prefWidth="400.0" promptText="Please choose a date">
+         <effect>
+            <Glow />
+         </effect>
+      </DatePicker>
+   </children>
+</AnchorPane>

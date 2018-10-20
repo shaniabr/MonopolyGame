@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="686.0" prefWidth="919.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.AddQuestView">
+   <children>
+      <ImageView fitHeight="749.0" fitWidth="919.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/editQue.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="192.0" fitWidth="320.0" layoutX="54.0" layoutY="406.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/white.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="check4" fitHeight="57.0" fitWidth="56.0" layoutX="442.0" layoutY="556.0" onMouseClicked="#checkV" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check3" fitHeight="57.0" fitWidth="56.0" layoutX="442.0" layoutY="492.0" onMouseClicked="#checkV" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check1" fitHeight="57.0" fitWidth="56.0" layoutX="439.0" layoutY="365.0" onMouseClicked="#checkV" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check2" fitHeight="57.0" fitWidth="56.0" layoutX="441.0" layoutY="427.0" onMouseClicked="#checkV" pickOnBounds="true" preserveRatio="true" />
+      <JFXTextField fx:id="ans3" layoutX="508.0" layoutY="498.0" prefHeight="48.0" prefWidth="333.0" />
+      <JFXTextField fx:id="ans1" layoutX="508.0" layoutY="371.0" prefHeight="48.0" prefWidth="333.0" />
+      <JFXTextField fx:id="ans4" layoutX="508.0" layoutY="560.0" prefHeight="48.0" prefWidth="333.0" />
+      <JFXTextField fx:id="ans2" layoutX="509.0" layoutY="427.0" prefHeight="57.0" prefWidth="333.0" />
+      <JFXRadioButton fx:id="hard" layoutX="732.0" layoutY="190.0" text="Hard" />
+      <JFXRadioButton fx:id="middle" layoutX="618.0" layoutY="190.0" text="Middle" />
+      <JFXRadioButton fx:id="easy" layoutX="494.0" layoutY="190.0" text="Easy" />
+      <JFXTextArea fx:id="text" layoutX="92.0" layoutY="231.0" prefHeight="117.0" prefWidth="747.0" />
+      <JFXRadioButton fx:id="risk" layoutX="214.0" layoutY="451.0" text="Costsand Risks" />
+      <JFXRadioButton fx:id="testings" layoutX="204.0" layoutY="480.0" text="Software Testing" />
+      <JFXRadioButton fx:id="Requirements" layoutX="70.0" layoutY="423.0" text="Requirements" />
+      <JFXRadioButton fx:id="main" layoutX="244.0" layoutY="511.0" text="Maintenance">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </JFXRadioButton>
+      <JFXRadioButton fx:id="achitu" layoutX="70.0" layoutY="510.0" text="Software Architecture" />
+      <JFXRadioButton fx:id="config" layoutX="70.0" layoutY="539.0" text="Configuration Management" />
+      <JFXRadioButton fx:id="designPat" layoutX="70.0" layoutY="480.0" text="Design Patterns" />
+      <JFXRadioButton fx:id="Agile" layoutX="279.0" layoutY="423.0" text="Agile" />
+      <JFXRadioButton fx:id="TDD" layoutX="209.0" layoutY="423.0" text="TDD" />
+      <JFXRadioButton fx:id="soacloud" layoutX="71.0" layoutY="451.0" text="SOA and Cloud" />
+        <JFXButton fx:id="save" layoutX="102.0" layoutY="596.0" onMouseClicked="#savequest" prefHeight="57.0" prefWidth="152.0" text=" " />
+      <JFXButton fx:id="back" layoutX="756.0" layoutY="638.0" onMouseClicked="#back" prefHeight="39.0" prefWidth="139.0" text=" " />
+   </children>
+</AnchorPane>

@@ -1,0 +1,197 @@
+{
+	"estates": [
+		{
+			"numOfEstate": 1,
+			"name": "Jungle A",
+			"currentPrice": 3000000,
+			"square": 2,
+			"owner": "Bank",
+			"value": 3000000
+		},
+		{
+			"numOfEstate": 2,
+			"name": "Jungle B",
+			"currentPrice": 250000,
+			"square": 4,
+			"owner": "Bank",
+			"value": 250000
+		},
+		{
+			"numOfEstate": 3,
+			"name": "Big Springs",
+			"currentPrice": 50000,
+			"square": 5,
+			"owner": "Bank",
+			"value": 50000
+		},
+		{
+			"numOfEstate": 4,
+			"name": "Zulu falls",
+			"currentPrice": 80000,
+			"square":6,
+			"owner": "Bank",
+			"value": 80000
+		},
+		{
+			"numOfEstate": 5,
+			"name": "The gorge",
+			"currentPrice": 700000,
+			"square": 7,
+			"owner": "Bank",
+			"value": 700000
+		},
+		{
+			"numOfEstate": 6,
+			"name": "Pride rock",
+			"currentPrice": 10000000,
+			"square": 9,
+			"owner": "Bank",
+			"value": 10000000
+		},
+		{
+			"numOfEstate": 7,
+			"name": "Tree Of Life",
+			"currentPrice": 80000,
+			"square": 10,
+			"owner": "Bank",
+			"value": 80000
+		},
+		{
+			"numOfEstate": 8,
+			"name": "Lion Guard Lair",
+			"currentPrice": 1800000,
+			"square": 12,
+			"owner": "Bank",
+			"value": 1800000
+		},
+		{
+			"numOfEstate": 9 ,
+			"name": "Elephant Graveyard",
+			"currentPrice": 2500000,
+			"square": 14,
+			"owner": "Bank",
+			"value": 2500000
+		},
+		{
+			"numOfEstate": 10,
+			"name": "Janja's Den",
+			"currentPrice": 100000,
+			"square": 15,
+			"owner": "Bank",
+			"value": 100000
+		},
+		{
+			"numOfEstate": 11,
+			"name": "Zazu's Tree",
+			"currentPrice": 500000,
+			"square": 17,
+			"owner": "Bank",
+			"value": 500000
+		},
+		{
+			"numOfEstate": 12,
+			"name": "Water Hole?",
+			"currentPrice": 270000,
+			"square": 19,
+			"owner": "Bank",
+			"value": 270000
+		},
+		{
+			"numOfEstate": 13,
+			"name": "Credenza's Place",
+			"currentPrice": 2000000,
+			"square": 20,
+			"owner": "Bank",
+			"value": 2000000
+		},
+		{
+			"numOfEstate": 14,
+			"name": "Dismal Swamp",
+			"currentPrice": 75000,
+			"square": 22,
+			"owner": "Bank",
+			"value": 75000
+		},
+			{
+			"numOfEstate": 15,
+			"name": "Boss Beaver's",
+			"currentPrice": 3000000,
+			"square": 24,
+			"owner": "Bank",
+			"value": 3000000
+		},
+			{
+			"numOfEstate": 16,
+			"name": "Hakuna Matata Bridge",
+			"currentPrice": 50000,
+			"square": 25,
+			"owner": "Bank",
+			"value": 50000
+		},
+			{
+			"numOfEstate": 17,
+			"name": "Mapango Cliffs",
+			"currentPrice": 300500,
+			"square": 27,
+			"owner": "Bank",
+			"value": 300500
+		},
+			{
+			"numOfEstate": 18,
+			"name": "Tree Of Truth",
+			"currentPrice": 2300000,
+			"square": 28,
+			"owner": "Bank",
+			"value": 2300000
+		},
+			{
+			"numOfEstate": 19,
+			"name": "Savage Rock",
+			"currentPrice": 55000,
+			"square": 30,
+			"owner": "Bank",
+			"value": 55000
+		},
+			{
+			"numOfEstate": 20,
+			"name": "Zimbabwe",
+			"currentPrice": 1000000,
+			"square": 32,
+			"owner": "Bank",
+			"value": 1000000
+		},
+			{
+			"numOfEstate": 21,
+			"name": "Zambia",
+			"currentPrice": 500000,
+			"square": 33,
+			"owner": "Bank",
+			"value": 500000
+		},
+			{
+			"numOfEstate": 22,
+			"name": "Tanzania",
+			"currentPrice": 5700000,
+			"square": 35,
+			"owner": "Bank",
+			"value": 5700000
+		},
+			{
+			"numOfEstate": 23,
+			"name": "Mount Kilimanjaro",
+			"currentPrice": 78000,
+			"square": 38,
+			"owner": "Bank",
+			"value": 78000
+		},
+			{
+			"numOfEstate": 24,
+			"name": "Wildebeest Vally",
+			"currentPrice": 2000000,
+			"square": 40,
+			"owner": "Bank",
+			"value": 2000000
+		},
+		
+	]
+}

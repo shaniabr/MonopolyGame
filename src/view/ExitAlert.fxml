@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="166.0" prefWidth="536.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ShowExitAlertView">
+   <children>
+      <JFXButton fx:id="yes" buttonType="RAISED" layoutX="399.0" layoutY="124.0" onMouseClicked="#alertAction" prefHeight="38.0" prefWidth="61.0" style="-fx-background-color: black; -fx-cursor: hand;" text="Yes" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="no" buttonType="RAISED" layoutX="467.0" layoutY="124.0" onMouseClicked="#alertAction" prefHeight="38.0" prefWidth="55.0" style="-fx-background-color: black; -fx-cursor: hand;" text="No" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi" size="21.0" />
+         </font>
+      </JFXButton>
+      <JFXButton layoutX="14.0" layoutY="14.0" prefHeight="53.0" prefWidth="55.0" style="-fx-background-color: white; -fx-border-radius: 2000; -fx-border-color: black; -fx-border-width: 3;" text="?">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="textAlert" alignment="CENTER" contentDisplay="CENTER" layoutX="93.0" layoutY="36.0" prefHeight="62.0" prefWidth="375.0" text="Are you sure you want to exit the game?">
+         <font>
+            <Font name="Franklin Gothic Demi" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

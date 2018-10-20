@@ -1,0 +1,13 @@
+Team: 
+	Raw Grade: 96
+	Penalties:
+		-0.8*5 barely any documented.
+Individual:
+	204560528:
+		Final Grade: 97.2
+	303026488:
+		Final Grade: 97.2
+	305218943:
+		Final Grade: 97.2
+	308570209:
+		Final Grade: 97.2

@@ -1,0 +1,839 @@
+{
+	"questions":[
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"evil character in movies",
+					"isCorrect":false
+				},
+				{
+					"text":"JavaScript Object Notation",
+					"isCorrect":true
+				},
+				{
+					"text":"a popular means of transferring data between servers and clients",
+					"isCorrect":true
+				},
+				{
+					"text":"Journalistic Stream Of News",
+					"isCorrect":false
+				}
+			],
+			"id":1,
+			"text":"what is JSON?",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"yes",
+					"isCorrect":true
+				},
+				{
+					"text":"no",
+					"isCorrect":false
+				}
+			],
+			"id":2,
+			"text":"JSON is language independent.",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"TDD",
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"Private cloud",
+					"isCorrect":false
+				},
+				{
+					"text":"Public cloud",
+					"isCorrect":true
+				},
+				{
+					"text":"Private cloud and public cloud",
+					"isCorrect":false
+				},
+				{
+					"text":"Other",
+					"isCorrect":false
+				}
+			],
+			"id":3,
+			"text":"Which kind of cloud should be used for multiple customers?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"No maintenance needed",
+					"isCorrect":true
+				},
+				{
+					"text":"High Security",
+					"isCorrect":false
+				},
+				{
+					"text":"Low Cost",
+					"isCorrect":true
+				},
+				{
+					"text":"Big control of the data",
+					"isCorrect":false
+				}
+			],
+			"id":4,
+			"text":"Select one or more advantages of Public Cloud :",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"High Performance",
+					"isCorrect":true
+				},
+				{
+					"text":"Low Cost",
+					"isCorrect":false
+				},
+				{
+					"text":"High level of security",
+					"isCorrect":true
+				},
+				{
+					"text":"Customizable",
+					"isCorrect":true
+				}
+			],
+			"id":5,
+			"text":"Select one or more advantages of Private Cloud :",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"sdp",
+					"isCorrect":false
+				},
+				{
+					"text":"srs",
+					"isCorrect":true
+				},
+				{
+					"text":"IEEE",
+					"isCorrect":false
+				},
+				{
+					"text":"STP",
+					"isCorrect":false
+				}
+			],
+			"id":6,
+			"text":"which document define the functional and non-functional requirements of a system",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"Product approval",
+					"isCorrect":true
+				},
+				{
+					"text":"Show the code to the customer",
+					"isCorrect":false
+				},
+				{
+					"text":"detect errors",
+					"isCorrect":true
+				},
+				{
+					"text":"Identify risks",
+					"isCorrect":true
+				}
+			],
+			"id":7,
+			"text":"what are the main targets of code review ?",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Requirements",
+				"SoftwareTesting"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"IaaS",
+					"isCorrect":false
+				},
+				{
+					"text":"PaaS",
+					"isCorrect":false
+				},
+				{
+					"text":"SaaS",
+					"isCorrect":true
+				},
+				{
+					"text":"Other",
+					"isCorrect":false
+				}
+			],
+			"id":8,
+			"text":"Which type of  cloud model is DropBox ?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"SaaS",
+					"isCorrect":true
+				},
+				{
+					"text":"IaaS",
+					"isCorrect":false
+				},
+				{
+					"text":"PaaS",
+					"isCorrect":false
+				},
+				{
+					"text":"Other",
+					"isCorrect":false
+				}
+			],
+			"id":9,
+			"text":"Which cloud model is better for end users?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"validation is Performed at the end of each phase",
+					"isCorrect":false
+				},
+				{
+					"text":"verification is Performed at the end of each phase",
+					"isCorrect":true
+				},
+				{
+					"text":"validation is  Performed before delivering the product to the client",
+					"isCorrect":true
+				},
+				{
+					"text":"verification is Performed before delivering the product to the client",
+					"isCorrect":false
+				}
+			],
+			"id":10,
+			"text":"Select the correct statement about  Validation and verification ? (one or more answers)",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Maintenance"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Only code writing",
+					"isCorrect":false
+				},
+				{
+					"text":"Software design",
+					"isCorrect":false
+				},
+				{
+					"text":"QA",
+					"isCorrect":false
+				},
+				{
+					"text":"Full life cycle of the software",
+					"isCorrect":true
+				}
+			],
+			"id":11,
+			"text":"Software Engineering refers to:",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Maintenance"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"No difference",
+					"isCorrect":false
+				},
+				{
+					"text":"Waterfall is iterative, and iterative is not",
+					"isCorrect":false
+				},
+				{
+					"text":"Waterfall is sequential and iterative in iterations.",
+					"isCorrect":true
+				},
+				{
+					"text":"They are both iterative",
+					"isCorrect":false
+				}
+			],
+			"id":12,
+			"text":"What is the main difference between waterfall and iterative approach",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"ConfigurationManagement",
+				"Agile",
+				"ConfigurationManagement"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"No advantages",
+					"isCorrect":false
+				},
+				{
+					"text":"Allows development guided by checks",
+					"isCorrect":false
+				},
+				{
+					"text":"Allows quick development that suits to the clients  requirements",
+					"isCorrect":true
+				},
+				{
+					"text":"Allows sequential development",
+					"isCorrect":true
+				}
+			],
+			"id":13,
+			"text":"What is the main advantage of the agile approach",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Agile"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Functional",
+					"isCorrect":false
+				},
+				{
+					"text":"Non functional",
+					"isCorrect":true
+				},
+				{
+					"text":"None of those",
+					"isCorrect":false
+				},
+				{
+					"text":"Both",
+					"isCorrect":false
+				}
+			],
+			"id":14,
+			"text":"The system will react in less that 2 seconds. This is a requirement type:",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"None of those",
+					"isCorrect":false
+				},
+				{
+					"text":"Taking a rest until the customer responds",
+					"isCorrect":false
+				},
+				{
+					"text":"Immediately starting the next sprint",
+					"isCorrect":false
+				},
+				{
+					"text":"Performing retrospective on the performance",
+					"isCorrect":true
+				}
+			],
+			"id":15,
+			"text":"When a sprint is finished we need to :",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Agile"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Performing formal surveys on a regular basis",
+					"isCorrect":false
+				},
+				{
+					"text":"Performing formal surveys only at the end of the process",
+					"isCorrect":false
+				},
+				{
+					"text":"None of those",
+					"isCorrect":false
+				},
+				{
+					"text":"Avoiding formal surveys and depending programming in pairs",
+					"isCorrect":true
+				}
+			],
+			"id":16,
+			"text":"In agile:",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Agile"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"factory",
+					"isCorrect":false
+				},
+				{
+					"text":"singleton",
+					"isCorrect":true
+				},
+				{
+					"text":"memento",
+					"isCorrect":false
+				},
+				{
+					"text":"None of those",
+					"isCorrect":false
+				}
+			],
+			"id":17,
+			"text":"What is the design pattern allowing single instance of an object",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"DesignPatterns",
+				"SoftwareArchitecture"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Loose coupling",
+					"isCorrect":false
+				},
+				{
+					"text":"None of those",
+					"isCorrect":false
+				},
+				{
+					"text":"interoperability",
+					"isCorrect":false
+				},
+				{
+					"text":"stateless",
+					"isCorrect":true
+				}
+			],
+			"id":18,
+			"text":"What is SOA Principle dictating a server status not available to users",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"PAAS provides storage only",
+					"isCorrect":false
+				},
+				{
+					"text":"No difference",
+					"isCorrect":false
+				},
+				{
+					"text":"Provides developing platform for IAAS programming languages",
+					"isCorrect":false
+				},
+				{
+					"text":"Mainly provides basic IAAS infrastructure",
+					"isCorrect":true
+				}
+			],
+			"id":19,
+			"text":"What is the most accurate of the following",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Integration of complex parts of the system",
+					"isCorrect":false
+				},
+				{
+					"text":"Turning to the client for QA",
+					"isCorrect":false
+				},
+				{
+					"text":"None of those ",
+					"isCorrect":false
+				},
+				{
+					"text":"Methods, classes and simple components",
+					"isCorrect":true
+				}
+			],
+			"id":20,
+			"text":"Unit testing will mostly include",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements",
+				"SoftwareTesting",
+				"ConfigurationManagement"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"Proxy",
+					"isCorrect":false
+				},
+				{
+					"text":"Factory",
+					"isCorrect":false
+				},
+				{
+					"text":"Singleton",
+					"isCorrect":true
+				},
+				{
+					"text":"Observer",
+					"isCorrect":false
+				}
+			],
+			"id":21,
+			"text":"what design pattern is the best to limit the number of an object instances?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"DesignPatterns",
+				"SoftwareArchitecture"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Requirements, Development, Testing, Implementation",
+					"isCorrect":true
+				},
+				{
+					"text":"Development",
+					"isCorrect":false
+				},
+				{
+					"text":"Requirements, Development ,Implementation",
+					"isCorrect":false
+				},
+				{
+					"text":"Requirements, Development, Testing",
+					"isCorrect":false
+				}
+			],
+			"id":22,
+			"text":"What includes life cycle of software ?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Maintenance",
+				"SoftwareTesting"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"Functional Requirements",
+					"isCorrect":false
+				},
+				{
+					"text":"Non-Functional Requirements",
+					"isCorrect":true
+				}
+			],
+			"id":23,
+			"text":"A software will respond within 2 seconds. This is an example of :",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Responsible for standing meetings",
+					"isCorrect":false
+				},
+				{
+					"text":"Maintains and communicates to all other Project Participants ",
+					"isCorrect":true
+				},
+				{
+					"text":"Responsible for motivating developers",
+					"isCorrect":false
+				},
+				{
+					"text":"Responsible for requirements and project content",
+					"isCorrect":true
+				}
+			],
+			"id":24,
+			"text":"SCRUM - product owner is:",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Agile"
+			]
+		},
+		{
+			"difficulty":0,
+			"answers":[
+				{
+					"text":"Informal between co-workers",
+					"isCorrect":false
+				},
+				{
+					"text":"A formal-performed by executives, and informal-co-workers",
+					"isCorrect":true
+				},
+				{
+					"text":"A formal which is performed by co-workers, and informal",
+					"isCorrect":false
+				},
+				{
+					"text":"An informal",
+					"isCorrect":false
+				}
+			],
+			"id":25,
+			"text":"What is the main types of reviews?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SoftwareTesting"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Avoiding formal surveys  ",
+					"isCorrect":true
+				},
+				{
+					"text":"Formal surveys are carried out only at the end of the process",
+					"isCorrect":false
+				},
+				{
+					"text":"Formal surveys are carried out on a regular basis",
+					"isCorrect":false
+				},
+				{
+					"text":"rely on pair programming",
+					"isCorrect":true
+				}
+			],
+			"id":26,
+			"text":"In Agile : (mark 2 answers)",
+			"team":"AQUA",
+			"isMultipleChoice":true,
+			"tags":[
+				"Agile"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Loose coupling  ",
+					"isCorrect":false
+				},
+				{
+					"text":"Interoperability",
+					"isCorrect":false
+				},
+				{
+					"text":"Stateless",
+					"isCorrect":true
+				},
+				{
+					"text":"flexibility",
+					"isCorrect":false
+				}
+			],
+			"id":27,
+			"text":"What is SOA principle that deals with the state of the server is not available to users ?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud",
+				"CostsandRisks"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Is needed only public cloud",
+					"isCorrect":false
+				},
+				{
+					"text":"We recommend only private cloud within the company",
+					"isCorrect":false
+				},
+				{
+					"text":"We recommend only local server",
+					"isCorrect":false
+				},
+				{
+					"text":"We recommend the Hybrid Cloud",
+					"isCorrect":true
+				}
+			],
+			"id":28,
+			"text":"For a company engaged in medical research and is interested in developing a site that shows customers their information",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SOAandCloud",
+				"CostsandRisks"
+			]
+		},
+		{
+			"difficulty":2,
+			"answers":[
+				{
+					"text":"Used in Black box tests to examine the inputs represent",
+					"isCorrect":true
+				},
+				{
+					"text":"Used in Black box tests to examine all possible inputs",
+					"isCorrect":false
+				},
+				{
+					"text":"Used in white box tests to examine all possible inputs",
+					"isCorrect":false
+				},
+				{
+					"text":"Used in white box tests to examine the inputs represent",
+					"isCorrect":false
+				}
+			],
+			"id":29,
+			"text":"Equivalence class is :",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"SoftwareTesting"
+			]
+		},
+		{
+			"difficulty":1,
+			"answers":[
+				{
+					"text":"Functional requirement - the system is required to make a swap",
+					"isCorrect":false
+				},
+				{
+					"text":"Non-Functional Requirements - Availability ",
+					"isCorrect":false
+				},
+				{
+					"text":"Non-Functional Requirements - Reliability ",
+					"isCorrect":false
+				},
+				{
+					"text":"Non-Functional Requirements - Performance ",
+					"isCorrect":true
+				}
+			],
+			"id":30,
+			"text":"Costumer require that the system will swap between different screens within half a second. How would you categorize this demand?",
+			"team":"AQUA",
+			"isMultipleChoice":false,
+			"tags":[
+				"Requirements"
+			]
+		}
+	]
+}

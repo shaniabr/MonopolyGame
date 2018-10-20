@@ -1,0 +1,15 @@
+Team: 
+	Raw Grade: 95.5
+	Penalties:
+		-0.1*20 no interfaces between layers.
+		-0.1*20 no clue where game history is stored, fetched from.
+		-0.1*5	some missing documentation.
+Individual:
+	204560528:
+		Final Grade: 96.85
+	303026488:
+		Final Grade: 96.85
+	305218943:
+		Final Grade: 96.85
+	308570209:
+		Final Grade: 96.85

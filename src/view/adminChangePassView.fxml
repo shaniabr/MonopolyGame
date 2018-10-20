@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="821.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ChangePasswordAdminView">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="909.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/adminChangePassword.png" />
+         </image>
+      </ImageView>
+      <JFXTextField fx:id="userName" layoutX="464.0" layoutY="270.0" prefHeight="38.0" prefWidth="258.0" />
+      <JFXPasswordField fx:id="oldpassword" layoutX="464.0" layoutY="340.0" prefHeight="38.0" prefWidth="258.0" />
+      <JFXPasswordField fx:id="password" layoutX="464.0" layoutY="415.0" prefHeight="38.0" prefWidth="258.0" />
+      <JFXButton fx:id="back" layoutX="675.0" layoutY="564.0" onMouseClicked="#back" prefHeight="38.0" prefWidth="129.0" style="-fx-cursor: hand;" text=" " />
+      <JFXButton fx:id="save" layoutX="334.0" layoutY="484.0" onMouseClicked="#save" prefHeight="70.0" prefWidth="154.0" style="-fx-cursor: hand;" text=" " />
+   </children>
+</AnchorPane>

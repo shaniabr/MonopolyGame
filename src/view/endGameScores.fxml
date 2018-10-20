@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="433.0" prefWidth="412.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: #dae8f4;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ShowEndGameScores">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7fbf2ca2" height="51.0" layoutX="17.0" layoutY="137.0" stroke="#c6bebe" strokeType="INSIDE" width="382.0" />
+      <Label fx:id="scores" alignment="CENTER" contentDisplay="CENTER" layoutX="16.0" layoutY="14.0" prefHeight="51.0" prefWidth="382.0" style="-fx-border-color: black; -fx-border-width: 2; -fx-background-color: #534f4f;" text="Final Scores" textFill="#fcfcfc">
+         <font>
+            <Font name="Franklin Gothic Demi" size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="139.0" prefHeight="51.0" prefWidth="99.0" text="1:">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="third" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="241.0" prefHeight="51.0" prefWidth="99.0" text="3:" visible="false">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="190.0" prefHeight="51.0" prefWidth="99.0" text="2:">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="four" alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" layoutY="292.0" prefHeight="51.0" prefWidth="99.0" text="4:" visible="false">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="winnerT" alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="140.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="twoT" alignment="CENTER" contentDisplay="CENTER" layoutX="92.0" layoutY="194.0" prefHeight="51.0" prefWidth="120.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="thirdT" alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="252.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="fourT" alignment="CENTER" contentDisplay="CENTER" layoutX="88.0" layoutY="292.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="winnerI" fitHeight="44.0" fitWidth="53.0" layoutX="226.0" layoutY="139.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="twoI" fitHeight="44.0" fitWidth="53.0" layoutX="226.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="thirdI" fitHeight="44.0" fitWidth="53.0" layoutX="226.0" layoutY="241.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="fourI" fitHeight="44.0" fitWidth="53.0" layoutX="226.0" layoutY="292.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="winnerScore" contentDisplay="CENTER" layoutX="279.0" layoutY="139.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="twoScore" contentDisplay="CENTER" layoutX="279.0" layoutY="191.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="thirdScore" contentDisplay="CENTER" layoutX="279.0" layoutY="242.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="fourScore" contentDisplay="CENTER" layoutX="279.0" layoutY="292.0" prefHeight="51.0" prefWidth="128.0">
+         <font>
+            <Font name="Franklin Gothic Demi" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="51.0" fitWidth="53.0" layoutX="126.0" layoutY="103.0">
+         <image>
+            <Image url="@images/crown.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="ok" buttonType="RAISED" layoutX="182.0" layoutY="369.0" onMouseClicked="#okButton" prefHeight="38.0" prefWidth="61.0" style="-fx-background-color: black; -fx-cursor: hand;" text="ok" textFill="#ebe7e7">
+         <font>
+            <Font name="Franklin Gothic Demi" size="21.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

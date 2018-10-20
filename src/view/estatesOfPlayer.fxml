@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="413.0" prefWidth="320.0" style="-fx-border-color: black; -fx-border-width: 3; -fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ShowPlayerEstatesView">
+   <children>
+      <ImageView fitHeight="449.0" fitWidth="394.0" layoutX="3.0" layoutY="1.0">
+         <image>
+            <Image url="@images/jungle.jpg" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="ok" buttonType="RAISED" layoutX="161.0" layoutY="356.0" onMouseClicked="#okButton" prefHeight="38.0" prefWidth="61.0" style="-fx-background-color: black; -fx-cursor: hand;" text="ok" textFill="WHITE">
+         <font>
+            <Font name="Franklin Gothic Demi" size="21.0" />
+         </font>
+      </JFXButton>
+      <Label fx:id="estatesOf" alignment="CENTER" contentDisplay="CENTER" layoutX="7.0" layoutY="47.0" prefHeight="51.0" prefWidth="382.0" text="Assets of">
+         <font>
+            <Font name="Franklin Gothic Demi" size="25.0" />
+         </font>
+      </Label>
+      <JFXTextArea fx:id="assetsOfPlayer" editable="false" layoutX="55.0" layoutY="124.0" prefHeight="215.0" prefWidth="285.0" style="-fx-border-color: white;">
+         <font>
+            <Font name="Franklin Gothic Demi" size="22.0" />
+         </font>
+      </JFXTextArea>
+   </children>
+</AnchorPane>

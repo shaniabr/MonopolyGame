@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="616.0" prefWidth="909.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.MainPageView">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="909.0">
+         <image>
+            <Image url="@images/Main.png" />
+         </image>
+      </ImageView>
+      <JFXButton fx:id="startGame" buttonType="RAISED" cacheShape="false" focusTraversable="false" layoutX="256.0" layoutY="285.0" onMouseClicked="#action" prefHeight="82.0" prefWidth="407.0" style="-fx-border-radius: 2000; -fx-cursor: hand;" text="   Start Game" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="44.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="information" buttonType="RAISED" cacheShape="false" focusTraversable="false" layoutX="260.0" layoutY="491.0" onMouseClicked="#action" prefHeight="82.0" prefWidth="407.0" style="-fx-cursor: hand;" text=" Information" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="44.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="scoreBoard" buttonType="RAISED" cacheShape="false" focusTraversable="false" layoutX="258.0" layoutY="388.0" onMouseClicked="#action" prefHeight="82.0" prefWidth="407.0" style="-fx-cursor: hand;" text="   ScoreBoard" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="44.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="exit" buttonType="RAISED" layoutX="778.0" layoutY="548.0" onMouseClicked="#action" prefHeight="57.0" prefWidth="117.0" style="-fx-cursor: hand;" text="Exit" textAlignment="CENTER" textFill="WHITE" textOverrun="LEADING_WORD_ELLIPSIS">
+         <font>
+            <Font name="Franklin Gothic Demi" size="35.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </JFXButton>
+      <JFXButton fx:id="adminLogin" buttonType="RAISED" layoutX="728.0" layoutY="14.0" onMouseClicked="#action" prefHeight="44.0" prefWidth="174.0" style="-fx-cursor: hand;" text="Admin Login">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </JFXButton>
+   </children>
+</AnchorPane>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.LoginAdmin">
+   <children>
+      <ImageView fitHeight="616.0" fitWidth="909.0" layoutX="3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/adminpage.png" />
+         </image>
+      </ImageView>
+      <JFXPasswordField id="password" fx:id="password" focusColor="#b3bbd3" layoutX="433.0" layoutY="383.0" prefHeight="30.0" prefWidth="263.0" style="-fx-cursor: hand;" unFocusColor="#2c2424" />
+      <JFXButton id="login" fx:id="login" layoutX="339.0" layoutY="462.0" onMouseClicked="#intologinpage" prefHeight="68.0" prefWidth="152.0" text=" " />
+      <JFXButton id="back" fx:id="back" layoutX="591.0" layoutY="564.0" onMouseClicked="#back" prefHeight="38.0" prefWidth="227.0" style="-fx-cursor: hand;" text=" " />
+      <JFXTextField fx:id="userName" layoutX="433.0" layoutY="300.0" prefHeight="38.0" prefWidth="263.0" style="-fx-cursor: hand;" />
+      <JFXButton id="login" fx:id="login1" layoutX="339.0" layoutY="462.0" onMouseClicked="#intologinpage" prefHeight="68.0" prefWidth="152.0" style="-fx-cursor: hand;" text=" " />
+   </children>
+</AnchorPane>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.RadialGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="369.0" prefWidth="298.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ShowQuesTopicView">
+	<children>
+		<ImageView fitHeight="369.0" fitWidth="306.0" pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/question.png" />
+			</image>
+		</ImageView>
+		<Label fx:id="question" alignment="TOP_CENTER" graphicTextGap="0.0" layoutX="6.0" layoutY="8.0" prefHeight="85.0" prefWidth="290.0" text="Pick a topic" wrapText="true">
+			<font>
+				<Font name="System Bold" size="14.0" />
+			</font>
+		</Label>
+		<Button fx:id="Requirements" layoutX="14.0" layoutY="113.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="Requirements">
+			<textFill>
+				<RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+					<stops>
+						<Stop color="BLACK" />
+						<Stop color="BLACK" offset="1.0" />
+					</stops>
+				</RadialGradient>
+			</textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+		</Button>
+      <Button fx:id="Agile" layoutX="114.0" layoutY="113.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="Agile">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="ConfigurationManagement" layoutX="14.0" layoutY="230.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="136.0" text="ConfigurationManagement">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="SoftwareArchitecture" layoutX="156.0" layoutY="230.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="136.0" text="SoftwareArchitecture">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="SOAandCloud" layoutX="113.0" layoutY="172.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="SOAandCloud">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="DesignPatterns" layoutX="206.0" layoutY="172.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="DesignPatterns">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="SoftwareTesting" layoutX="156.0" layoutY="287.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="136.0" text="SoftwareTesting">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="Maintenance" layoutX="14.0" layoutY="172.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="Maintenance">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="CostsandRisks" layoutX="13.0" layoutY="287.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="136.0" text="CostsandRisks">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+      <Button fx:id="TDD" layoutX="206.0" layoutY="113.0" mnemonicParsing="false" onAction="#action" prefHeight="47.0" prefWidth="83.0" text="TDD">
+         <textFill>
+            <RadialGradient centerX="0.5" centerY="0.5" radius="0.5">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </RadialGradient>
+         </textFill>
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+	</children>
+</AnchorPane>

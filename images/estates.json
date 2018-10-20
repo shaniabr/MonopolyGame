@@ -1,0 +1,197 @@
+{
+	"estates": [
+		{
+			"numOfEstate": 1,
+			"name": "Jungle A",
+			"currentPrice": 3,000,000,
+			"square": 1,
+			"owner": "null",
+			"value": 3,000,000
+		},
+		{
+			"numOfEstate": 2,
+			"name": "Jungle B",
+			"currentPrice": 250,000,
+			"square": 2,
+			"owner": "null",
+			"value": 250,000
+		},
+		{
+			"numOfEstate": 3,
+			"name": "Pig Springs",
+			"currentPrice": 50,000,
+			"square": 3,
+			"owner": "null",
+			"value": 50,000
+		},
+		{
+			"numOfEstate": 4,
+			"name": "Zulu falls",
+			"currentPrice": 80,000,
+			"square":4,
+			"owner": "null",
+			"value": 80,000
+		},
+		{
+			"numOfEstate": 5,
+			"name": "The gorge",
+			"currentPrice": 700,000,
+			"square": 5,
+			"owner": "null",
+			"value": 700,000
+		},
+		{
+			"numOfEstate": 6,
+			"name": "Pride rock",
+			"currentPrice": 10,000,000,
+			"square": 6,
+			"owner": "null",
+			"value": 10,000,000
+		},
+		{
+			"numOfEstate": 7,
+			"name": "Tree Of Life",
+			"currentPrice": 0,
+			"square": 7,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 8,
+			"name": "Lion Guard Lair",
+			"currentPrice": 0,
+			"square": 8,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 9 ,
+			"name": "Elephant Graveyard",
+			"currentPrice": 0,
+			"square": 9,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 10,
+			"name": "Janja's Den",
+			"currentPrice": 0,
+			"square": 10,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 11,
+			"name": "Zazu's Tree",
+			"currentPrice": 0,
+			"square": 11,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 12,
+			"name": "Water Hole?",
+			"currentPrice": 0,
+			"square": 12,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 13,
+			"name": "Credenza's Place",
+			"currentPrice": 0,
+			"square": 13,
+			"owner": "null",
+			"value": " "
+		},
+		{
+			"numOfEstate": 14,
+			"name": "Dismal Swamp",
+			"currentPrice": 0,
+			"square": 14,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 15,
+			"name": "Boss Beaver's",
+			"currentPrice": 0,
+			"square": 15,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 16,
+			"name": "Hakuna Matata Bridge",
+			"currentPrice": 0,
+			"square": 16,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 17,
+			"name": "Mapango Cliffs",
+			"currentPrice": 0,
+			"square": 17,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 18,
+			"name": "Tree Of Truth",
+			"currentPrice": 0,
+			"square": 18,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 19,
+			"name": "Savage Rock",
+			"currentPrice": 0,
+			"square": 19,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 20,
+			"name": "King's Field",
+			"currentPrice": 0,
+			"square": 20,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 21,
+			"name": "Hyena's Cave",
+			"currentPrice": 0,
+			"square": true,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 22,
+			"name": "Nala&Simba's Jungle",
+			"currentPrice": 0,
+			"square": 22,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 23,
+			"name": "Timon &Pumba's Tree ",
+			"currentPrice": 0,
+			"square": 23,
+			"owner": "null",
+			"value": " "
+		},
+			{
+			"numOfEstate": 24,
+			"name": "Mufasa's Land",
+			"currentPrice": 0,
+			"square": 24,
+			"owner": "null",
+			"value": " "
+		},
+		
+	]
+}

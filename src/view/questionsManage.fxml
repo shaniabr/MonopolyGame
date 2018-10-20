@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="606.0" prefWidth="809.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.TableAllQuestion">
+   <children>
+      <ImageView fitHeight="606.0" fitWidth="809.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/manageQuest.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="table" layoutX="101.0" layoutY="194.0" prefHeight="238.0" prefWidth="584.0" style="-fx-background-color: white;">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="37.0" text="#" />
+          <TableColumn fx:id="text" prefWidth="370.0" text="Question" />
+            <TableColumn fx:id="difficulty" prefWidth="93.0" text="Difficulty" />
+            <TableColumn fx:id="topic" prefWidth="83.0" text="Topic" />
+        </columns>
+      </TableView>
+      <JFXButton fx:id="add" layoutX="110.0" layoutY="443.0" prefHeight="49.0" prefWidth="134.0" text=" " />
+      <JFXButton fx:id="edit" layoutX="315.0" layoutY="443.0" prefHeight="49.0" prefWidth="134.0" text=" " />
+      <JFXButton fx:id="delet" layoutX="498.0" layoutY="443.0" prefHeight="49.0" prefWidth="134.0" text=" " />
+      <JFXButton fx:id="back" layoutX="661.0" layoutY="556.0" prefHeight="36.0" prefWidth="134.0" text=" " />
+   </children>
+</AnchorPane>
